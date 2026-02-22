@@ -15,7 +15,7 @@ const RetroGrid = () => {
       <div
         className="absolute inset-0"
         style={{
-          background: "radial-gradient(ellipse at center, transparent 30%, hsl(232 35% 18%) 80%)",
+          background: "radial-gradient(ellipse at center, transparent 30%, hsl(243 30% 23%) 80%)",
         }}
       />
     </div>
