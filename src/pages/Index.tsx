@@ -31,12 +31,13 @@ const Index = () => {
             Try Agent Locker for MacOS
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
           </a>
-          <button
+          <a
+            href="https://github.com/khidirahmed/grid-lock-app/releases/download/v1.0.0/Agent.Locker.Setup.1.0.0.exe"
             className="group flex items-center gap-3 rounded-full border border-border bg-secondary/30 px-8 py-3 text-foreground transition-all hover:bg-secondary/50 hover:border-primary/40"
           >
             Try Agent Locker for Windows
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-          </button>
+          </a>
         </div>
       </div>
     </div>
