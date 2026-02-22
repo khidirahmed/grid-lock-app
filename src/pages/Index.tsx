@@ -25,13 +25,13 @@ const Index = () => {
 
         <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in" style={{ animationDelay: "0.6s" }}>
           <button
-            className="group flex items-center gap-3 rounded-full border border-border bg-secondary px-8 py-3 text-foreground transition-all hover:bg-muted hover:border-primary/40 opacity-20"
+            className="group flex items-center gap-3 rounded-full border border-border bg-secondary/30 px-8 py-3 text-foreground transition-all hover:bg-secondary/50 hover:border-primary/40"
           >
             Try Agent Locker for MacOS
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
           </button>
           <button
-            className="group flex items-center gap-3 rounded-full border border-border bg-secondary px-8 py-3 text-foreground transition-all hover:bg-muted hover:border-primary/40 opacity-20"
+            className="group flex items-center gap-3 rounded-full border border-border bg-secondary/30 px-8 py-3 text-foreground transition-all hover:bg-secondary/50 hover:border-primary/40"
           >
             Try Agent Locker for Windows
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
