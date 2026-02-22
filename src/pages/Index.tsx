@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-background">
+    <div className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-background select-none">
       <RetroGrid />
 
       <div className="relative z-10 flex flex-col items-center text-center px-6 max-w-2xl">
@@ -23,13 +23,20 @@ const Index = () => {
           </p>
         </div>
 
-        <button
-          className="group flex items-center gap-3 rounded-full border border-border bg-secondary px-8 py-3 text-foreground transition-all hover:bg-muted hover:border-primary/40 opacity-0 animate-fade-in"
-          style={{ animationDelay: "0.6s" }}
-        >
-          Try Agent Locker
-          <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-        </button>
+        <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in" style={{ animationDelay: "0.6s" }}>
+          <button
+            className="group flex items-center gap-3 rounded-full border border-border bg-secondary px-8 py-3 text-foreground transition-all hover:bg-muted hover:border-primary/40 opacity-20"
+          >
+            Try Agent Locker for MacOS
+            <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+          </button>
+          <button
+            className="group flex items-center gap-3 rounded-full border border-border bg-secondary px-8 py-3 text-foreground transition-all hover:bg-muted hover:border-primary/40 opacity-20"
+          >
+            Try Agent Locker for Windows
+            <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+          </button>
+        </div>
       </div>
     </div>
   );
