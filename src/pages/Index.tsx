@@ -21,6 +21,9 @@ const Index = () => {
           <p className="text-muted-foreground text-base sm:text-lg">
             Run workflows with your tools, safely and in control.
           </p>
+          <p className="text-muted-foreground text-base sm:text-lg">
+            Download Docker to get started.
+          </p>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in" style={{ animationDelay: "0.6s" }}>
