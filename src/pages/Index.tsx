@@ -25,7 +25,7 @@ const Index = () => {
 
         <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in" style={{ animationDelay: "0.6s" }}>
           <a
-            href="https://github.com/khidirahmed/grid-lock-app/releases/download/v1.0.0/AgentLocker-1.0.0-arm64.dmg"
+            href="https://github.com/khidirahmed/grid-lock-app/releases/download/v1.0.0/Agent.Locker-1.0.0-arm64.3.dmg"
             className="group flex items-center gap-3 rounded-full border border-border bg-secondary/30 px-8 py-3 text-foreground transition-all hover:bg-secondary/50 hover:border-primary/40"
           >
             Try Agent Locker for MacOS
